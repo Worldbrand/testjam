@@ -16,20 +16,27 @@ namespace testjam
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+
         public Engine()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.PreferredBackBufferHeight = 720;
             Content.RootDirectory = "Content";
         }
 
         protected override void Initialize()
         {
+            IsMouseVisible = true;
+
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            TextureBin.Load(Content);
         }
 
         protected override void UnloadContent()
@@ -41,8 +48,9 @@ namespace testjam
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+            Input.Update();
+            
 
-            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
@@ -50,7 +58,7 @@ namespace testjam
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.DarkSlateGray);
 
             // TODO: Add your drawing code here
 

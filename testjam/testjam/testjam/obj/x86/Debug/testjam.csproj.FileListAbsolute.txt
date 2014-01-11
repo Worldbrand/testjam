@@ -1,0 +1,7 @@
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\bin\x86\Debug\testjam.exe
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\bin\x86\Debug\testjam.pdb
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\obj\x86\Debug\testjam.exe
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\obj\x86\Debug\testjam.pdb
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\obj\x86\Debug\testjam.csprojResolveAssemblyReference.cache
+C:\Users\tyrannosaurus\Documents\testjam\testjam\testjam\testjam\bin\x86\Debug\Content\Sprites\Pixel.xnb

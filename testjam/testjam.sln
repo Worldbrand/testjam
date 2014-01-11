@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testjam", "testjam\testjam\testjam.csproj", "{064095FE-D3C9-4378-9E46-4FB2EE0C4659}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "testjamContent", "testjam\testjamContent\testjamContent.contentproj", "{05D75513-54E4-4EB2-8D59-1751FB3EAB4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064095FE-D3C9-4378-9E46-4FB2EE0C4659}.Debug|x86.ActiveCfg = Debug|x86
+		{064095FE-D3C9-4378-9E46-4FB2EE0C4659}.Debug|x86.Build.0 = Debug|x86
+		{064095FE-D3C9-4378-9E46-4FB2EE0C4659}.Release|x86.ActiveCfg = Release|x86
+		{064095FE-D3C9-4378-9E46-4FB2EE0C4659}.Release|x86.Build.0 = Release|x86
+		{05D75513-54E4-4EB2-8D59-1751FB3EAB4E}.Debug|x86.ActiveCfg = Debug|x86
+		{05D75513-54E4-4EB2-8D59-1751FB3EAB4E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
